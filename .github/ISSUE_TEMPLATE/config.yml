@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support page / contact form
+    url: https://foldershare.top/en/support
+    about: For order, license, privacy or private requests, use the contact form instead of a public issue.
+  - name: Order lookup
+    url: https://foldershare.top/en/order
+    about: Check a Pro order and copy your license key.
