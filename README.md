@@ -14,12 +14,13 @@
 - 不需要 Cloudflare 账号，不需要 Homebrew，不需要终端
 - 停止分享 / 到期 / 退出应用后链接立即失效
 - 访问码、有效期、访客上传、ZIP 打包、视频 Range 播放、局域网直连、21 种语言
+- 断线自动重连（指数退避）与运行中延长有效期
 - 固定入口链接（Pro）：每次分享复用同一个链接和二维码
 - 固定域名（Pro）：自带 Cloudflare 账号和域名，得到长期固定地址
 
 ## 安装
 
-1. 在 [Releases](../../releases) 下载 `FolderShare-1.7.0-universal.zip`
+1. 在 [Releases](../../releases) 下载 `FolderShare-1.8.0-universal.zip`
 2. 解压，把 `FolderShare.app` 拖进 `应用程序`
 3. **当前版本尚未通过 Apple 公证**：首次打开请右键点击 App →「打开」，或在「系统设置 → 隐私与安全性」点「仍要打开」
 4. 如果提示需要 cloudflared：不需要，应用已内置
