@@ -4,7 +4,7 @@
 
 **官网：<https://foldershare.top>** · **下载：见右侧 Releases** · macOS 13+（Apple Silicon / Intel）
 
-![FolderShare](https://foldershare.top/assets/screenshots/hero-app.png)
+![FolderShare](https://foldershare.top/assets/screenshots/running-light.png)
 
 ## 为什么是 FolderShare
 
