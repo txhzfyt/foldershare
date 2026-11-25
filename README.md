@@ -2,7 +2,7 @@
 
 把 Mac 上的任意文件夹，一键变成一个 HTTPS 链接 + 二维码。免账号、免装 cloudflared、文件不离开本机。
 
-**官网：<https://foldershare.top/?utm_source=github&utm_medium=readme>** · **下载：见右侧 Releases** · macOS 13+（Apple Silicon / Intel）
+**官网：<https://foldershare.top/?utm_source=github&utm_medium=readme>** · **English site: <https://foldershare.top/en/?utm_source=github&utm_medium=readme>** · **下载：见右侧 Releases** · macOS 13+（Apple Silicon / Intel）
 
 ![FolderShare](https://foldershare.top/assets/screenshots/running-light.png)
 
