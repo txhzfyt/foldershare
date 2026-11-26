@@ -20,12 +20,14 @@
 - 访客页中英双语（按浏览器语言自动切换）
 - 访客页图片缩略图与图库视图
 - 大文件断点续传（分块上传）
+- Developer ID 签名 + Apple 公证（直接下载无需右键打开）
+- Mac App Store 构建支持（审核中）
 - 固定入口链接（Pro）：每次分享复用同一个链接和二维码
 - 固定域名（Pro）：自带 Cloudflare 账号和域名，得到长期固定地址
 
 ## 安装
 
-1. 在 [Releases](../../releases) 下载 `FolderShare-1.13.0-universal.zip`
+1. 在 [Releases](../../releases) 下载 `FolderShare-1.14.0-universal.zip`
 2. 解压，把 `FolderShare.app` 拖进 `应用程序`
 3. **当前版本尚未通过 Apple 公证**：首次打开请右键点击 App →「打开」，或在「系统设置 → 隐私与安全性」点「仍要打开」
 4. 如果提示需要 cloudflared：不需要，应用已内置
