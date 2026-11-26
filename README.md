@@ -17,7 +17,7 @@ brew install --cask foldershare
 
 **直接下载（已 Apple 公证）**
 
-- Universal（Apple Silicon + Intel）：`FolderShare-1.15.0-universal.zip`
+- Universal（Apple Silicon + Intel）：`FolderShare-1.18.0-universal.zip`
 - 或从官网下载：<https://foldershare.top/#download>
 
 macOS 13+，已通过 Developer ID 签名 + Apple 公证。
