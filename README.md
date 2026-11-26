@@ -1,10 +1,31 @@
 # FolderShare
 
-把 Mac 上的任意文件夹，一键变成一个 HTTPS 链接 + 二维码。免账号、免装 cloudflared、文件不离开本机。
+把 Mac 上的任意文件夹，一键变成一个临时 HTTPS 链接 + 二维码。免账号、免装 cloudflared、文件不离开本机。
 
-**官网：<https://foldershare.top/?utm_source=github&utm_medium=readme>** · **English site: <https://foldershare.top/en/?utm_source=github&utm_medium=readme>** · **下载：见右侧 Releases** · macOS 13+（Apple Silicon / Intel）
+**官网：<https://foldershare.top/?utm_source=github&utm_medium=readme>** · **English: <https://foldershare.top/en/?utm_source=github&utm_medium=readme>**
 
 ![FolderShare](https://foldershare.top/assets/screenshots/running-light.png)
+
+## 安装
+
+**Homebrew（推荐）**
+
+```bash
+brew tap txhzfyt/foldershare
+brew install --cask foldershare
+```
+
+**直接下载（已 Apple 公证）**
+
+- Apple Silicon：`FolderShare-1.14.0-arm64.zip`
+- Intel Mac：`FolderShare-1.14.0-intel.zip`
+- 或从官网下载：<https://foldershare.top/#download>
+
+macOS 13+，已通过 Developer ID 签名 + Apple 公证。
+
+**Mac App Store**
+
+已提交审核，付费版 US$29.99（审核中，暂不可搜到）。
 
 ## 为什么是 FolderShare
 
@@ -17,37 +38,21 @@
 - 断线自动重连（指数退避）与运行中延长有效期
 - 访客页手机端一键下载栏、上传失败重试、到期前 5 分钟提醒
 - 最近分享/一键再次分享、首次启动 3 步引导
-- 访客页中英双语（按浏览器语言自动切换）
-- 访客页图片缩略图与图库视图
+- 访客页中英双语、图片缩略图与图库视图
 - 大文件断点续传（分块上传）
-- Developer ID 签名 + Apple 公证（直接下载无需右键打开）
-- Mac App Store 构建支持（审核中）
 - 固定入口链接（Pro）：每次分享复用同一个链接和二维码
 - 固定域名（Pro）：自带 Cloudflare 账号和域名，得到长期固定地址
-
-## 安装
-
-1. 在 [Releases](../../releases) 下载 `FolderShare-1.14.0-universal.zip`
-2. 解压，把 `FolderShare.app` 拖进 `应用程序`
-3. **当前版本尚未通过 Apple 公证**：首次打开请右键点击 App →「打开」，或在「系统设置 → 隐私与安全性」点「仍要打开」
-4. 如果提示需要 cloudflared：不需要，应用已内置
 
 ## Pro 与离线授权
 
 Pro 使用离线授权码（`FS1...`），**不需要注册账号、不需要联网激活**：
 
-- 在官网 <https://foldershare.top/#pricing> 申请开通 / 购买
+- 官网 <https://foldershare.top/#pricing>：支付宝扫码支付后自动发放离线授权码
+- 价格：¥18/月 或 ¥198 买断
 - 打开 FolderShare →「升级 Pro」→ 粘贴授权码 → 激活
 - 授权码由官网签名，仅在本机校验；不会上传文件、路径或设备信息
 
 免费版包含除固定入口、固定域名之外的全部核心功能。
-
-## 已知限制
-
-- 应用未公证，首次启动需要手动放行；后续会补上 Apple Developer ID 签名
-- Quick Tunnel 为 Cloudflare 的临时隧道：无 SLA、单隧道约 200 并发，且地址每次随机（Pro 固定入口用于解决地址随机问题）
-- 部分公司/校园网或 VPN TUN 模式会拦截隧道端口 7844；应用会给出诊断提示，可切换网络或关闭 TUN 后重试
-- 分享期间 Mac 需要保持开机
 
 ## 隐私
 
